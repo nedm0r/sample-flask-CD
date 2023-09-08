@@ -25,4 +25,4 @@ spec:
             - containerPort: 5000
           envFrom:
             - secretRef:
-                name: mysqlcredential
+                name: mysql-credential
